@@ -1,4 +1,4 @@
-# TradeItAccountOpeningSDKCarthage
+# TradeItAccountOpeningIosSDK
 Distribution repository for the pre-built `TradeItAccountOpeningSDKCarthage` binary along with all pre-built dependnecies.
 
 ## Installation
