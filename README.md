@@ -77,3 +77,10 @@ TradeItAccountOpeningSDK.launch(onViewController: self)
 // When the user wants to launch account opening
 TradeItAccountOpeningSDK.launch(onViewController: self)
 ```
+
+## Running the example applications
+Two XCode projects are provided demonstrating how to integrate with Carthage and CocoaPods respectively. Both projects contain two targets, one demonstrating how to integrate with Swift and the other with Objective-C.
+
+In order to get the examples running:
+1. Select your desired target and update the credentials found in `AppDelegate` with your application's credentials
+1. Update `Target > General > Signing` to your team
