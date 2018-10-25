@@ -14,7 +14,7 @@ import TradeItAccountOpeningSDK
 
 ```
 ```Objective-C
-import <TradeItAccountOpeningSDK/TradeItAccountOpeningSDK-Swift.h>`
+import <TradeItAccountOpeningSDK/TradeItAccountOpeningSDK-Swift.h>
 ```
 ### Cocoapods
 Add the following to your `Podfile`
