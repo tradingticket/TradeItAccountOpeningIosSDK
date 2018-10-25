@@ -5,7 +5,7 @@ Distribution repository for the pre-built `TradeItAccountOpeningSDK` binary alon
 ## Technical requirements
 - iOS 10.0 or higher
 - Swift 4 or higher
-- Check [the podspec](https://github.com/tradingticket/SpecRepo/tree/master/TradeItAccountOpeningSDK) to verify dependency compatability in your applicaiton. _note, this SDK is only compatible with the [TradeItIosTicketSDK2](https://github.com/tradingticket/TradeItIosTicketSDK2/) v2.0.8+_
+- Check [the podspec](https://github.com/tradingticket/SpecRepo/tree/master/TradeItAccountOpeningSDK) to verify dependency compatability in your applicaiton. _note, this SDK is only compatible with the [TradeItIosTicketSDK2](https://github.com/tradingticket/TradeItIosTicketSDK2/) v2.0.11+_
 
 
 2.0.11 or higher
