@@ -7,11 +7,6 @@ Distribution repository for the pre-built `TradeItAccountOpeningSDK` binary alon
 - Swift 4 or higher
 - Check [the podspec](https://github.com/tradingticket/SpecRepo/tree/master/TradeItAccountOpeningSDK) to verify dependency compatability in your applicaiton. _note, this SDK is only compatible with the [TradeItIosTicketSDK2](https://github.com/tradingticket/TradeItIosTicketSDK2/) v2.0.11+_
 
-
-2.0.11 or higher
-Swift version 4 or higher
-Cocoapods (preferred) or Carthage
-
 ## Installation
 Installing and linking the framework will provide the following header:
 ```Swift
@@ -77,10 +72,3 @@ TradeItAccountOpeningSDK.launch(onViewController: self)
 // When the user wants to launch account opening
 TradeItAccountOpeningSDK.launch(onViewController: self)
 ```
-
-## Running the example applications
-Two XCode projects are provided demonstrating how to integrate with Carthage and CocoaPods respectively. Both projects contain two targets, one demonstrating how to integrate with Swift and the other with Objective-C.
-
-In order to get the examples running:
-1. Select your desired target and update the credentials found in `AppDelegate` with your application's credentials
-1. Update `Target > General > Signing` to your team
