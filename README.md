@@ -52,9 +52,6 @@ TradeItAccountOpeningSDK.configure(
 See the provided example applications for examples of integrating with CocoaPods with ObjC and Swift.
 ### Swift
 ```
-// When the app loads
-TradeItAccountOpeningSDK.configure(apiKey: "<your-trade-it-api-key>", environment: .prod)
-
 // When the user wants to launch account opening
 TradeItAccountOpeningSDK.launch(onViewController: self)
 ```
