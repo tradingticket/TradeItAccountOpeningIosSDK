@@ -36,16 +36,14 @@ end
 // When the app loads
 TradeItAccountOpeningSDK.configure(
     apiKey: "YOUR TRADEIT API KEY",
-    environment: .production,
-    googleMapsApiKey: "YOUR GOOGLE MAPS API KEY"
+    environment: .production
 )
 ```
 
 ```Objective-C
 // When the app loads
 [TradeItAccountOpeningSDK configureWithApiKey:@"YOUR TRADEIT API KEY"
-                                      environment:TradeItAccountOpeningEnvironmentProduction
-                                 googleMapsApiKey:@"YOUR GOOGLE MAPS API KEY"];
+                                      environment:TradeItAccountOpeningEnvironmentProduction];
 ```
 
 ## Usage
