@@ -149,7 +149,6 @@
 				A738FBC421481B8F008D2760 /* Frameworks */,
 				A738FBC521481B8F008D2760 /* Resources */,
 				18408A26EDC5ABD9B5899CE0 /* [CP] Embed Pods Frameworks */,
-				8F2A90BF2F1F72105CEE49D8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,7 +168,6 @@
 				A7DA4567215EAC2C00F79725 /* Frameworks */,
 				A7DA4568215EAC2C00F79725 /* Resources */,
 				BB6A7ADD60E5AB1C10A97C3F /* [CP] Embed Pods Frameworks */,
-				51C9DD2FE502D76E61320460 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -283,46 +281,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftExampleApp/Pods-SwiftExampleApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		51C9DD2FE502D76E61320460 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ObjCExampleApp/Pods-ObjCExampleApp-resources.sh",
-				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
-				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjCExampleApp/Pods-ObjCExampleApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8F2A90BF2F1F72105CEE49D8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftExampleApp/Pods-SwiftExampleApp-resources.sh",
-				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
-				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftExampleApp/Pods-SwiftExampleApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BB6A7ADD60E5AB1C10A97C3F /* [CP] Embed Pods Frameworks */ = {
@@ -559,7 +517,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = TradeIt.SwiftExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -578,7 +536,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = TradeIt.SwiftExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

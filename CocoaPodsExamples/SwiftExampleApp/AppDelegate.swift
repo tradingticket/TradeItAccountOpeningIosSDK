@@ -6,12 +6,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        #error ("Provide your TradeIt API key and Google Maps API Key")
+    private func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        #error ("Provide your TradeIt API")
         TradeItAccountOpeningSDK.configure(
             apiKey: "YOUR TRADEIT API KEY",
-            environment: .production,
-            googleMapsApiKey: "YOUR GOOGLE MAPS API KEY"
+            environment: .production
         )
 
         return true
