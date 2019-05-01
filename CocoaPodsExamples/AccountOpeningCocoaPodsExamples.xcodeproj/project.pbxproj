@@ -263,7 +263,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftExampleApp/Pods-SwiftExampleApp-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftExampleApp/Pods-SwiftExampleApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DLParser-iOS11.4/DLParser.framework",
 				"${BUILT_PRODUCTS_DIR}/PromiseKit-iOS11.4/PromiseKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField-iOS11.4/SkyFloatingLabelTextField.framework",
@@ -280,7 +280,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftExampleApp/Pods-SwiftExampleApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftExampleApp/Pods-SwiftExampleApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BB6A7ADD60E5AB1C10A97C3F /* [CP] Embed Pods Frameworks */ = {
@@ -289,7 +289,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ObjCExampleApp/Pods-ObjCExampleApp-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ObjCExampleApp/Pods-ObjCExampleApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DLParser-iOS12.0/DLParser.framework",
 				"${BUILT_PRODUCTS_DIR}/PromiseKit-iOS12.0/PromiseKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField-iOS12.0/SkyFloatingLabelTextField.framework",
@@ -306,7 +306,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjCExampleApp/Pods-ObjCExampleApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ObjCExampleApp/Pods-ObjCExampleApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EA604AACC99A066C414CBB9E /* [CP] Check Pods Manifest.lock */ = {
