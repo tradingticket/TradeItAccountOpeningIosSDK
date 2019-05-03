@@ -3,7 +3,7 @@ Distribution repository for the pre-built `TradeItAccountOpeningSDK` binary alon
 
 ## Technical requirements
 - iOS 10.0 or higher
-- Swift 4 or higher
+- Swift 4.2 or higher
 - Check [the podspec](https://github.com/tradingticket/SpecRepo/tree/master/TradeItAccountOpeningSDK) to verify dependency compatability in your applicaiton. _note, this SDK is only compatible with the [TradeItIosTicketSDK2](https://github.com/tradingticket/TradeItIosTicketSDK2/) v2.0.11+_
 - Cocoapods
 
@@ -29,7 +29,7 @@ end
 
 ## Configuration
 1. In your application's `Info.plist`, add a `String` entry for the `Privacy - Camera Usage Description` key (if one does not already exist). Set the key value to `Brokers will require a picture of your ID in order to open a brokerage account.` or another user-friendly message that will be displayed to your user at the time the application requests camera access.
-1. *For Obj-C apps:* Set `Project > Build Settings (All) > Swift Language Version` to >= `4.0`
+1. *For Obj-C apps:* Set `Project > Build Settings (All) > Swift Language Version` to >= `4.2`
 1. *For Obj-C apps:* Set `Target > Build Settings (All) > Always Embed Swift Standard Libraries` to `YES`
 1. Configure the SDK with your credentials:
 ```Swift
