@@ -9,7 +9,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     # error "Provide your TradeIt API key"
-    [TradeItAccountOpeningSDK configureWithApiKey:"YOUR TRADEIT API KEY" environment:TradeItAccountOpeningEnvironmentProduction];
+    [TradeItAccountOpeningSDK configureWithApiKey:@"YOUR TRADEIT API KEY" environment:TradeItAccountOpeningEnvironmentProduction];
     return YES;
 }
 
